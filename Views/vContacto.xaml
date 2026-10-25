@@ -65,7 +65,6 @@
             </Picker>
             <Entry x:Name="txtNumeroId"
                    Placeholder="Seleccione primero el tipo"
-                   IsEnabled="False"
                    TextChanged="txtNumeroId_TextChanged" />
 
             <Label Text="Nombres:" />

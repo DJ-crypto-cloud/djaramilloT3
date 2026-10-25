@@ -16,7 +16,6 @@ public partial class vContacto : ContentPage
 	private void pkTipoId_SelectedIndexChanged(object? sender, EventArgs e)
 	{
 		txtNumeroId.Text = "";
-		txtNumeroId.IsEnabled = pkTipoId.SelectedIndex != -1;
 
 		switch (pkTipoId.SelectedItem?.ToString())
 		{
